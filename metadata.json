@@ -9,7 +9,7 @@
   "data-url": "https://api.englandnetball.co.uk/api/openactive/sessions.json",
   "created": "2018-02-02",
   "documentation-url": "https://github.com/england-netball/opendata",
-  "rpde-version": "0.2.3",
+  "rpde-version": "0.2.4",
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "England Netball",
