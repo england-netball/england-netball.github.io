@@ -14,7 +14,7 @@
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "England Netball",
   "attribution-url": "https://www.englandnetball.co.uk",
-  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
+  "mailchimp": "require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"2677f8f58c74e61f84d16d49c","lid":"5d0616e797"}) })",
   "copyright-notice": "Image courtesy of the Press Association",
   "odi-certificate-number": "",
   "publish": false
