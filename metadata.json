@@ -1,13 +1,13 @@
 {
-  "dataset-site-url": "null/",
-  "title": "England Netball Sessions",
-  "description": "Session data from the -- site",
+  "dataset-site-url": "https://england-netball.github.io/",
+  "title": "England Netball Sessions - Open Data",
+  "description": "Session data from englandnetball.co.uk",
   "publisher-name": "England Netball",
   "publisher-url": "https://www.englandnetball.co.uk",
-  "keyword-1": "Netball",
+  "keyword-1": "Netball, England, OpenActive",
   "keyword-2": "Sessions",
-  "data-url": "http://api.englandnetball.co.uk/openactive/rpde",
-  "created": "2017-09-06",
+  "data-url": "https://api.englandnetball.co.uk/api/openactive/sessions.json",
+  "created": "2018-02-02",
   "documentation-url": "https://github.com/england-netball/opendata",
   "rpde-version": "0.2.3",
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
@@ -16,5 +16,6 @@
   "attribution-url": "null/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
   "copyright-notice": "Image courtesy of the Press Association",
-  "odi-certificate-number": ""
+  "odi-certificate-number": "",
+  "publish": false
 }
