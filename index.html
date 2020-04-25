@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "England Netball Sessions - Open Data",
-      "id": "https://data.englandnetball.co.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "https://data.englandnetball.co.uk/",
       "url": "https://data.englandnetball.co.uk/",
-      "description" : "Session data from englandnetball.co.uk; published using OpenActive RPDE v1.0.",
+      "name": "England Netball Sessions - Open Data",
+      "description": "Session data from englandnetball.co.uk; published using OpenActive RPDE v1.0.",
       "keywords":[
-         "Netball, England, OpenActive",
-         "Sessions",
-         "OpenActive"
+          "Netball, England, OpenActive",
+          "Sessions",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=1.0",
-        "contentUrl" : "https://api.englandnetball.co.uk/api/openactive/sessions"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://api.englandnetball.co.uk/api/openactive/sessions"
+        }
+      ],
+      "discussionUrl": "https://github.com/england-netball/opendata/issues",
+      "documentation": "https://github.com/england-netball/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "England Netball",
-         "url": "https://www.englandnetball.co.uk",
-         "logo": "https://data.englandnetball.co.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "England Netball",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://data.englandnetball.co.uk/images/logo.png"
+        },
+        "url": "https://www.englandnetball.co.uk"
       },
-      "datePublished" : "2018-11-14T00:00:00.000Z"
+      "datePublished": "2018-11-14T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "https://data.englandnetball.co.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
